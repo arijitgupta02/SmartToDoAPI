@@ -36,3 +36,18 @@ git clone https://github.com/arijitgupta02/SmartToDoAPI
 cd SmartToDoAPI
 npm install
 npm run dev
+```
+
+Postman API Collection
+----------------------
+
+
+Import the file below into Postman to test the API:
+`docs/SmartToDoAPI.postman_collection.json`
+
+Steps:
+1. SignUp → Get new user created
+2. Login → copy returned token
+3. In Postman set variable `token = returned_jwt_token`
+4. Use Create Task / Get Tasks / Delete Task
+
